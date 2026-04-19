@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_black"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tv_dev_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="// DEVELOPER //"
+        android:fontFamily="monospace"
+        android:textColor="@color/neon_purple"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.3"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="120dp" />
+
+    <TextView
+        android:id="@+id/tv_dev_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer: Bayram"
+        android:fontFamily="monospace"
+        android:textColor="@color/neon_green"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_dev_label"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_github"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:text="[ github.com/x3nc1 ]"
+        android:fontFamily="monospace"
+        android:textColor="@color/bg_black"
+        android:textSize="14sp"
+        android:backgroundTint="@color/neon_purple"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_dev_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+res/values/colors.xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_black">#000000</color>
+    <color name="bg_card">#0D0D0D</color>
+    <color name="neon_green">#00FF41</color>
+    <color name="neon_purple">#BF00FF</color>
+    <color name="neon_purple_dark">#7B00CC</color>
+    <color name="text_dim">#444444</color>
+</resources>
+res/values/strings.xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">x3nc1-DroidAnalyzer</string>
+</resources>
