@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnScan = findViewById(R.id.btn_scan);
         Button btnDev = findViewById(R.id.btn_developer);
 
-        glitchTitle.setText("X3NC1\nDROID\nANALYZER");
+        glitchTitle.setText("X3NC1\nApk\nANALYZER");
 
         permissionLauncher = registerForActivityResult(
             new ActivityResultContracts.RequestMultiplePermissions(),
