@@ -18,6 +18,9 @@ jobs:
         distribution: 'temurin'
         cache: gradle
         
+    - name: Generate Gradle Wrapper in Cloud
+      run: gradle wrapper
+        
     - name: Make gradlew executable
       run: chmod +x gradlew
       
