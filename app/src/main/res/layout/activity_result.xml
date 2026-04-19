@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_apk_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="@color/neon_green"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/neon_purple" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&gt;&gt; DANGEROUS PERMISSIONS"
+            android:fontFamily="monospace"
+            android:textColor="@color/neon_purple"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_permissions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#FF4444"
+            android:textSize="12sp"
+            android:lineSpacingExtra="3dp"
+            android:background="@color/bg_card"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&gt;&gt; IP ADDRESSES"
+            android:fontFamily="monospace"
+            android:textColor="@color/neon_purple"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_ips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="@color/neon_green"
+            android:textSize="12sp"
+            android:lineSpacingExtra="3dp"
+            android:background="@color/bg_card"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&gt;&gt; API KEYS / TOKENS"
+            android:fontFamily="monospace"
+            android:textColor="@color/neon_purple"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_api_keys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#FFD700"
+            android:textSize="12sp"
+            android:lineSpacingExtra="3dp"
+            android:background="@color/bg_card"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&gt;&gt; HTTP/HTTPS URLs"
+            android:fontFamily="monospace"
+            android:textColor="@color/neon_purple"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_urls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#00BFFF"
+            android:textSize="12sp"
+            android:lineSpacingExtra="3dp"
+            android:background="@color/bg_card"
+            android:padding="10dp"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+</ScrollView>
