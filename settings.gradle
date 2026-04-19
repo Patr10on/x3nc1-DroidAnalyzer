@@ -1,0 +1,2 @@
+rootProject.name = "x3nc1-DroidAnalyzer"
+include ':app'
