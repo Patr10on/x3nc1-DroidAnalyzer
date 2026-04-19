@@ -14,7 +14,7 @@
         android:fontFamily="monospace"
         android:letterSpacing="0.2"
         android:lineSpacingExtra="4dp"
-        android:text="X3NC1\nDROID\nANALYZER"
+        android:text="X3NC1\nAPK\nANALYZER"
         android:textColor="@color/neon_green"
         android:textSize="40sp"
         android:textStyle="bold"
